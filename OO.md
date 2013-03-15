@@ -12,8 +12,14 @@ rather than porting code based on the Modern Perl lingo for object orientation (
  ... well unless you want to be MOPing around that is.
  
  - P5 ```constant``` to P6 ```constant```
+
+  **TODO:** 
  - P5 ```$VERSION``` to P6 ```:ver```
+
+  **TODO:**  
  - P5 ```Exporter``` to P6 ```is export```
+
+  **TODO:**   
  - P5 flexible arguments to P6 ```multi method```s
- - 
- - 
+
+  **TODO:**   
