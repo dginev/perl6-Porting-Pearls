@@ -11,10 +11,6 @@ So, you have a P5 library that you authored/co-maintain/use daily/simply have a 
  - Are you porting a CPAN module? Has it been ported already? Check at http://modules.perl6.org/
  - Get used to [panda](https://github.com/tadzik/panda/), the P6 ```cpan``` replacement.
 
-## ```class``` or ```module``` ?
-
-**TODO:** Discuss choice of ```class``` vs ```module``` in P6. Also, what happened to ```package```?
-
 ## Tests
 
 At the time of writing, the diversity of P5 testing libraries has not propagated to P6. The native [Test](http://perl6maven.com/how-to-test-perl6-modules) module usually suffices. 
