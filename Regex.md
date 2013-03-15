@@ -22,4 +22,4 @@ But in the case you want to bite the bullet and do a rewrite using the P6 rules,
  
  - P5 ``` \b word \b ``` to P6 ``` << 'word' >> ```
  
- \b has become more fine-grained, as you can explicitly ask for left and right word boundaries. Again, keep in mind the string literal quotes.
+ \b has become more fine-grained, as you can explicitly ask for left ``` << ``` and right ``` >> ``` word boundaries. Again, keep in mind the string literal quotes.
