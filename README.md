@@ -12,8 +12,6 @@ This guide is written in Github markdown and comes in the following flavours:
  * [P5-P6 Idioms](Idioms.md)
  * ...
  
+Contributions from the P5 and P6 communities are more than welcome!
 
-
-
-
-\* The modules in question are Lingua::EN::Sentence, XML::LibXML ... (more to come)
+\* The modules in question are [Lingua::EN::Sentence](https://github.com/dginev/perl6-Lingua-EN-Sentence), [XML::LibXML](https://github.com/dginev/perl6-XML-LibXML)(in progress...), and more to come.
