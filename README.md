@@ -1,4 +1,4 @@
-perl6-Porting-Pearls
+Porting Pearls -- P5 to P6 Gotchas
 ====================
 
 This repo contains useful tips and tricks for porting Perl5 code into Perl6, gained through the ordeal of porting actual CPAN modules\* to Perl6. 
