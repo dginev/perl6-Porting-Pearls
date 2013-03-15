@@ -36,7 +36,7 @@ But in the case you want to bite the bullet and do a rewrite using the P6 rules,
  The **right** way (pmichaud++) of matching "any char except alphabetic or dash" would be the P6 ``` <-alpha-[\-]> ```.
  One more example of composition is "no alphabetic characters, except lowercase ascii vowels" written ``` <-alpha+[aeiou]>```.
 
-- P5 ``` \.\.\.``` to P6 ``` '...' ```
+ - P5 ``` \.\.\.``` to P6 ``` '...' ```
 
  I found this a rather good example for the elegance of using string literals in regexps, rather than escaping each special char. The payoff increases with the size of your literal.
  
@@ -51,8 +51,9 @@ But in the case you want to bite the bullet and do a rewrite using the P6 rules,
 
  - P5 ``` (?!\d) ``` to P6 ```<!before \d>```
  
- The regexes above match "not followed/succeeded by a digit", using negative lookahead.
- *Note:* Before you read on, keep in mind regexes are space sensitive in P5 by default, while they are space agnostic in P6.
+ The regexes above match "not followed by/matched before a digit", using negative lookahead.
+ 
+ **Note:** Before you read on, keep in mind regexes are space sensitive in P5 by default, while they are space agnostic in P6.
 
  In P5, ```(?! )``` would delimit a negative lookahead, while ```(?= )``` would delimit a positive lookahead (see a [lookahead](http://www.regular-expressions.info/lookaround.html) tutorial for more details).
  In P6, this is made more readable via "before".
