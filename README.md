@@ -1,9 +1,9 @@
-Porting Pearls -- P5 to P6 Gotchas
+Porting Pearls - P5 to P6 Gotchas
 ====================
 
 This repo contains useful tips and tricks for porting Perl5 code into Perl6, gained through the ordeal of porting actual CPAN modules\* to Perl6. 
 
-This guide is written in Github markdown and comes in is split in the following sections:
+This guide is written in Github markdown and comes in the following flavours:
 
  * [General](General.md)
  * [Regex](Regex.md)
