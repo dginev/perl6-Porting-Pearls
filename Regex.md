@@ -5,7 +5,7 @@ Related resources:
  - http://perlgeek.de/en/article/5-to-6#post_07
  - http://perlcabal.org/syn/Differences.html#Regexes_and_Rules
 
-Keep in mind that the safest way to port a complex P5 regex would always be the :P5 modifier that allows to use P5 syntax in P6 regexes.
+Keep in mind that the safest way to port a complex P5 regex would always be the **:P5 modifier** that allows to use P5 syntax directly in P6 regexes.
 
 But in the case you want to bite the bullet and do a rewrite using the P6 rules, the following are convenient idioms to keep in mind:
 (stumbled on while porting [Lingua::EN::Sentence](https://github.com/dginev/perl6-Lingua-EN-Sentence))
