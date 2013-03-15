@@ -8,6 +8,7 @@ Related resources:
 Keep in mind that the safest way to port a complex P5 regex would always be the :P5 modifier that allows to use P5 syntax in P6 regexes.
 
 But in the case you want to bite the bullet and do a rewrite using the P6 rules, the following are convenient idioms to keep in mind:
+(stumbled on while porting [Lingua::EN::Sentence](https://github.com/dginev/perl6-Lingua-EN-Sentence))
  - P5 ``` [abcd] ``` to P6 ``` <[abcd]> ```
  
  P6 repurposes square brackets for uncaptured groups, and introduces the ``` <[ ]> ``` notation for the P5 character class.
