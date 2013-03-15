@@ -8,8 +8,9 @@ This guide is written in Github markdown and comes in the following flavours:
  * [General](General.md)
  * [Regex](Regex.md)
  * [XS and NativeCall](XS.md)
- * [Objects and Classes](OO.md)
- * [P5-P6 Idioms](Idioms.md)
+ * [Classes, Objects, Methods](OO.md)
+ * [Operators](Operators.md)
+ * [Idioms](Idioms.md)
  * ...
  
 Contributions from the P5 and P6 communities are more than welcome!
