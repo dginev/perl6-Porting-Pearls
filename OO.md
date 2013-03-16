@@ -22,7 +22,7 @@ rather than porting code based on the Modern Perl lingo for object orientation (
  
  OK: ``` class A {}; class B { my $.a = A.new; } ```
 
- Both in P5 and P6 ```use``` always has the semantics of "try to load a .pm file".
+ Both in P5 and P6 ```use``` always has the semantics of "try to load a .pm file". Circular imports are considered errors.
  I found a dose in sanity in simply using a **one class per file** policy, where each class A::B::C is located in its own A/B/C.pm6.
  That isn't required by P6, but it avoids most potential mistakes pertaining to ```use```.
 
