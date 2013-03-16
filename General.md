@@ -16,6 +16,12 @@ So, you have a P5 library that you authored/co-maintain/use daily/simply have a 
 At the time of writing, the diversity of P5 testing libraries has not propagated to P6. The native [Test](http://perl6maven.com/how-to-test-perl6-modules) module usually suffices. 
 Porting test files is usually straightforward.
 
+There are some API differences between P5's Test::More and P6's Test:
+
+ - P5 ```not_ok``` to P6 ```nok```
+ 
+ Same effect and syntax, just renamed.
+
 *Feel free to contribute porting tips for tests to this section.*
 
 ## Documentation
