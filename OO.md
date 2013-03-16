@@ -19,7 +19,8 @@ rather than porting code based on the Modern Perl lingo for object orientation (
  - P5 ```use``` to P6 ```use```
  
  Broken: ``` class A {}; class B {use A; my $.a = A.new; }```
- OK: ``` class A {}; class B { my $.a = A.new; }
+ 
+ OK: ``` class A {}; class B { my $.a = A.new; } ```
 
  Both in P5 and P6 ```use``` always has the semantics of "try to load a .pm file".
  I found a dose in sanity in simply using a **one class per file** policy, where each class A::B::C is located in its own A/B/C.pm6.
