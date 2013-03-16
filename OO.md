@@ -4,6 +4,7 @@ P5 to P6 Object Oriented Syntax
 rather than porting code based on the Modern Perl lingo for object orientation ([Moose](http://moose.iinteractive.com/) and his friends).
 
  - ```class``` or ```module``` ?
+ 
  **Rule of thumb:** Always use ```class```.
  
  It's that simple. ```module``` is usually a convenient way to capture procedural code that provides static utility subroutines,
