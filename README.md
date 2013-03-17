@@ -10,6 +10,7 @@ This guide is written in Github markdown and comes in the following flavours:
  * [XS and NativeCall](XS.md)
  * [Classes, Objects, Methods](OO.md)
  * [Operators](Operators.md)
+ * [Error Reporting](ErrorReporting.md)
  * [Idioms](Idioms.md)
  * ...
  
