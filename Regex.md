@@ -63,5 +63,21 @@ But in the case you want to bite the bullet and do a rewrite using the P6 rules,
  Similarly, in P5 ```(?<! )``` would delimit a negative lookbehind and ```(?<= )``` would delimit a positive lookbehind.
  P6 again improves on readability, substituting them with ```<!after  >``` and ```<after  >``` respectively.
  
+ - P5 ```push @array, $0``` to P6 ```@array.push($0.Str)```
+
+ In P6, each capture sets an automatic Match object, just the same way that P5 does - in left-to-right order of left parantheses.
+ However, P6 is object-oriented from the foundation up, and the match objects make no difference. The well-known $0, $1 ... are now of the special class Match.
+ 
+ Keep this in mind, as it can cause confusion in a situation such as:
+ 
+ ```
+   # In Perl 6:
+   my Str @array;
+   while ($string ~~ s/some_regex//) {
+     @array.push($0.Str);
+   }
+ ```
+ 
+ If you forget to explicitly cast $0 down to Str, you will get a compile-time error informing you that you can't push a Match object into a Str array.
 
  - P5 ``` ``` to P6 ``` ```
